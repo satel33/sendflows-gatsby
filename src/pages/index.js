@@ -18,9 +18,14 @@ import {
   Custom3Icon,
   Custom4Icon,
   DemoIcon,
+  DivideIcon,
   EarthIcon,
   Email2Icon,
   EmailIcon,
+  formEmailIcon,
+  formIgIcon,
+  FormOptIcon,
+  FormPhoneIcon,
   GobrandLogo,
   NightTrain,
   NineIcon,
@@ -353,7 +358,7 @@ const IndexPage = () => {
                       width: "30px",
                       height: "16px",
                     }}
-                    src="assets/img/automation-1/icon-divide.svg"
+                    src={DivideIcon}
                     alt=""
                   />
                   Dividi contatto: se ha il TAG: “Italiano”
@@ -633,7 +638,7 @@ const IndexPage = () => {
                     <div className="px-3 py-3">
                       <img
                         className="icon-xs pb-1 ml-2 mr-2"
-                        src="assets/img/custom-icons/form-email.svg"
+                        src={formEmailIcon}
                         alt=""
                       />
                       <span className="text-primary-3">
@@ -649,7 +654,7 @@ const IndexPage = () => {
                     <div className="px-3 py-3">
                       <img
                         className="icon-xs pb-1 ml-2 mr-2"
-                        src="assets/img/custom-icons/form-ig.svg"
+                        src={formIgIcon}
                         alt=""
                       />
                       <span className="text-primary-3">
@@ -665,7 +670,7 @@ const IndexPage = () => {
                     <div className="px-3 py-3">
                       <img
                         className="icon-xs pb-1 ml-2 mr-2"
-                        src="assets/img/custom-icons/form-phone.svg"
+                        src={FormPhoneIcon}
                         alt=""
                       />
                       <span className="text-primary-3 mr-5">
@@ -679,7 +684,7 @@ const IndexPage = () => {
                     <div className="px-3 py-3">
                       <img
                         className="icon-xs pb-1 ml-2 mr-2"
-                        src="assets/img/custom-icons/form-opt.svg"
+                        src={FormOptIcon}
                         alt=""
                       />
                       <span className="text-primary-3 mr-5">

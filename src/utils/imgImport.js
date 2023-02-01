@@ -7,6 +7,7 @@ import builderIcon from "../assets/images/builder-icon.svg"
 import email2Icon from "../assets/images/email2-icon.svg"
 import supportIcon from "../assets/images/support-icon1.svg"
 import sendIcon from "../assets/images/send-icon.svg"
+import divideIcon from "../assets/images/automation-1/icon-divide.svg"
 
 import pixhousesLogo from "../assets/images/logos/pixhouses.svg"
 import proxyplanetLogo from "../assets/images/logos/proxyplanet.svg"
@@ -26,6 +27,10 @@ import custom1Icon from "../assets/images/custom-icons/1.svg"
 import custom2Icon from "../assets/images/custom-icons/7.svg"
 import custom3Icon from "../assets/images/custom-icons/4.svg"
 import custom4Icon from "../assets/images/custom-icons/3.svg"
+import formEmail from "../assets/images/custom-icons/form-email.svg"
+import formIg from "../assets/images/custom-icons/form-ig.svg"
+import formOpt from "../assets/images/custom-icons/form-opt.svg"
+import formPhone from "../assets/images/custom-icons/form-phone.svg"
 import arrowIcon from "../assets/images/custom-icons/arrow.svg"
 
 import avatar1 from "../assets/images/pellegrino-bozzella.jpeg"
@@ -63,6 +68,11 @@ export const CodeIcon = codeIcon
 export const BuilderIcon = builderIcon
 export const SupportIcon = supportIcon
 export const SendIcon = sendIcon
+export const formEmailIcon = formEmail
+export const formIgIcon = formIg
+export const FormOptIcon = formOpt
+export const FormPhoneIcon = formPhone
+export const DivideIcon = divideIcon
 
 export const PixhousesLogo = pixhousesLogo
 export const ProxyplanetLogo = proxyplanetLogo
