@@ -1,0 +1,34 @@
+// User Variables
+//
+// Customize logo height and color scheme here.
+
+// Settings
+// Change logo height.
+$logo-height: 22px;
+
+// Color Scheme
+// Change color scheme in this variables but don't remove the variables.
+$primary  : #0b8c8c;
+$primary-2: #05555C;
+$primary-3: #182f2f;
+$secondary: #ecf3f3;
+$success  : #00a675;
+$info     : #17a2b8;
+$warning  : #fdcd3b;
+$danger   : #dc3545;
+$light    : #f7f9fc;
+$dark     : #2c3136;
+
+// Don't change or remove $theme-color-scheme.
+$theme-colors-scheme: (
+    "primary"  : $primary,
+    "primary-2": $primary-2,
+    "primary-3": $primary-3,
+    "secondary": $secondary,
+    "success"  : $success,
+    "info"     : $info,
+    "warning"  : $warning,
+    "danger"   : $danger,
+    "light"    : $light,
+    "dark"     : $dark,
+);

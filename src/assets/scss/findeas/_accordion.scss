@@ -1,0 +1,35 @@
+//
+// Accordion
+//
+
+.card {
+  >[data-toggle="collapse"] {
+
+    h6,
+    i {
+      transition: $transition-base;
+      color: $headings-color;
+    }
+
+    &[aria-expanded="false"] {
+      &:hover {
+
+        h6,
+        i {
+          color: $primary;
+        }
+      }
+    }
+
+    &[aria-expanded="true"] {
+      h6 {
+        color: $primary;
+      }
+
+      i {
+        transform: rotateZ(-180deg);
+        color: $primary;
+      }
+    }
+  }
+}

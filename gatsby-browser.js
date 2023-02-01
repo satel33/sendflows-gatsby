@@ -1,0 +1,12 @@
+import "./src/assets/icon/remixicon/remixicon.css"
+import "./src/assets/css/plyr.min.css"
+import "./src/assets/css/aos.min.css"
+import "./src/assets/css/swiper.min.css"
+import "./src/assets/css/custom-s.css"
+import "./src/assets/fonts/gilroy/stylesheet.css"
+import "./src/assets/css/findeas.min.css"
+// import "./src/assets/scss/findeas.scss"
+
+import "jquery/dist/jquery.min.js"
+import "@popperjs/core/dist/umd/popper.min.js"
+import "bootstrap/dist/js/bootstrap.min.js"

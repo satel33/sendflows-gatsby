@@ -1,0 +1,124 @@
+//
+// Dropdown
+//
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+
+  &.btn-primary,
+  &.btn-primary-2,
+  &.btn-primary-3,
+  &.btn-success,
+  &.btn-info,
+  &.btn-warning,
+  &.btn-danger,
+  &.btn-dark {
+    &:after {
+      @include dropdown-arrow($white, 0);
+    }
+
+    &:hover,
+    &:focus {
+      &:after {
+        @include dropdown-arrow($white, 0);
+      }
+    }
+  }
+
+  &.btn-secondary,
+  &.btn-light {
+    &:after {
+      @include dropdown-arrow($gray-900, 0);
+    }
+
+    &:hover,
+    &:focus {
+      &:after {
+        @include dropdown-arrow($gray-900, 0);
+      }
+    }
+  }
+
+  &:after {
+    border: none !important;
+    transition: $transition-base;
+    width: $spacer;
+    height: $spacer*1.45;
+    margin: 0;
+    @include dropdown-arrow($gray-900, 0);
+  }
+
+  &:hover,
+  &:focus {
+    &:after {
+      @include dropdown-arrow($primary, 0);
+    }
+  }
+
+  &:focus {
+    &:after {
+      .nav-item & {
+        .nav-pills & {
+          @include dropdown-arrow($white, 0);
+        }
+      }
+    }
+  }
+}
+
+.dropdown-menu {
+  box-shadow: 6px 12px 48px rgba($black, .08);
+  border: none;
+
+  .dropdown-item {
+    font-weight: $font-weight-medium;
+    padding: $spacer*.5 $spacer*1.25;
+    transition: $transition-base;
+
+    &:hover {
+      background: transparent;
+    }
+  }
+}
+
+.dropdown-submenu {
+  position: relative;
+
+  .dropdown-item {
+    padding-right: 46px;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background: $white;
+      color: $primary;
+    }
+
+    &:after {
+      transform: rotate(-90deg);
+      position: absolute;
+      right: 16px;
+      top: .8em;
+    }
+  }
+
+  .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+  }
+}
+
+@include media-breakpoint-down(md) {
+  .dropdown-submenu {
+    .dropdown-item {
+
+      &:after {
+        transform: rotate(0deg);
+        top: .4em;
+      }
+    }
+  }
+}

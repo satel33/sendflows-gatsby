@@ -1,0 +1,13 @@
+//
+// Nav
+//
+
+.nav-link {
+  transition: $transition-base;
+  font-weight: $font-weight-medium;
+  color: $gray-900;
+
+  &:hover {
+    color: $primary;
+  }
+}

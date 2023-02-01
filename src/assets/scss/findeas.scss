@@ -1,0 +1,63 @@
+/* =================================================================
+
+
+  Template Name : Findeas – Saas & Software Landing Page Template
+  Version       : 1.0.0
+  Author        : Qoorasa
+  Author URI    : https://themeforest.net/user/qoorasa
+  License       : https://themeforest.net/licenses/standard
+
+  Table of Content:
+  01. Google Font
+  02. Global Styling
+  03. Import SCSS
+
+
+==================================================================== */
+
+
+/* =================================================================
+    01. Google Font
+==================================================================== */
+@import url('https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700&display=swap');
+
+
+
+/* =================================================================
+    02. Global Styling
+==================================================================== */
+* { outline: none !important; }
+
+html, body {
+  position: relative !important;
+  overflow-x: hidden !important;
+}
+
+/* =================================================================
+    03. Import SCSS
+==================================================================== */
+// User Custom SCSS
+@import "./user";
+
+// Variables
+@import "./bootstrap/functions";
+@import "./user-variables";
+@import "./findeas/variables";
+
+// Bootstrap
+@import "./bootstrap/bootstrap";
+
+// Findeas Template
+@import "./findeas/mixins";
+@import "./findeas/accordion";
+@import "./findeas/buttons";
+@import "./findeas/card";
+@import "./findeas/dropdown";
+@import "./findeas/medium-zoom";
+@import "./findeas/nav";
+@import "./findeas/navbar";
+@import "./findeas/plyr";
+@import "./findeas/preloader";
+@import "./findeas/swiper";
+@import "./findeas/type";
+@import "./findeas/ultilities";

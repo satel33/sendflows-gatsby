@@ -1,0 +1,25 @@
+//
+// Navbar
+//
+
+.navbar-light .navbar-nav .show>.dropdown-toggle:after {
+  @include dropdown-arrow($primary, 0);
+}
+
+.navbar {
+  transition: all .2s ease-in-out;
+
+  &.navbar-light {
+
+    .navbar-brand {
+      .logo {
+        width: auto;
+        height: $logo-height;
+      }
+    }
+
+    .navbar-toggler {
+      border: none;
+    }
+  }
+}

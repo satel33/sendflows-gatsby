@@ -1,0 +1,11 @@
+//
+// Swiper Plugin
+//
+
+:root {
+  --swiper-theme-color: #{$primary};
+}
+
+.swiper-slide {
+  height: auto !important;
+}
