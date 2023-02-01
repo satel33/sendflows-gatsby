@@ -543,7 +543,7 @@ const FeaturesPage = () => {
         </div>
       </section>
 
-      <section className="space-3 bg-light">
+      <section id="form" className="space-3 bg-light">
         <div className="container">
           <div className="row align-items-center justify-content-around">
             <div className="col-lg-7" data-aos="fade-left">

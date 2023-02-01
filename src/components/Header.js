@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import * as React from "react"
 import { Logo } from "../utils/imgImport"
 
@@ -7,13 +8,13 @@ const Header = () => (
     <nav className="navbar fixed-top navbar-border navbar-expand-lg navbar-light bg-white py-3">
       <div className="container">
         {/* <!-- Logo --> */}
-        <a
+        <Link
           className="navbar-brand order-lg-1 flex-grow-1"
-          href="/"
+          to="/"
           aria-label="Logo"
         >
           <img className="logo d-flex" src={Logo} alt="Logo" data-svg-inject />
-        </a>
+        </Link>
         {/* <!-- End Logo --> */}
 
         {/* <!-- Navbar Action Button --> */}
@@ -49,15 +50,15 @@ const Header = () => (
         >
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a href="/" className="nav-link">
+              <Link to="/" className="nav-link">
                 Overview
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item dropdown position-relative">
-              <a
+              <Link
                 className="nav-link dropdown-toggle"
-                href="#a"
+                to="#"
                 id="navbarDemosDropdown"
                 role="button"
                 data-toggle="dropdown"
@@ -65,72 +66,72 @@ const Header = () => (
                 aria-expanded="false"
               >
                 Funzioni
-              </a>
+              </Link>
               <div
                 className="dropdown-menu"
                 aria-labelledby="navbarDemosDropdown"
               >
-                <a
+                <Link
                   className="dropdown-item d-flex align-items-center"
-                  href="/features#email"
+                  to="/features#email"
                 >
                   <i className="ri-send-plane-line ri-lg mr-2"></i>
                   Email & SMS Marketing
-                </a>
-                <a
+                </Link>
+                <Link
                   className="dropdown-item d-flex align-items-center"
-                  href="/features#whatsapp"
+                  to="/features#whatsapp"
                 >
                   <i className="ri-whatsapp-line ri-lg mr-2"></i>
                   Whatsapp Marketing
-                </a>
-                <a
+                </Link>
+                <Link
                   className="dropdown-item d-flex align-items-center"
-                  href="/features#flow"
+                  to="/features#flow"
                 >
                   <i className="ri-organization-chart ri-lg mr-2"></i>
                   Automation Flow
-                </a>
-                <a
+                </Link>
+                <Link
                   className="dropdown-item d-flex align-items-center"
-                  href="/features#transactional-email"
+                  to="/features#transactional-email"
                 >
                   <i className="ri-mail-check-line ri-lg mr-2"></i>
                   Email Transazionali
-                </a>
-                <a
+                </Link>
+                <Link
                   className="dropdown-item d-flex align-items-center"
-                  href="/features#transactional-sms"
+                  to="/features#transactional-sms"
                 >
                   <i className="ri-chat-check-line ri-lg mr-2"></i>
                   SMS Transazionali
-                </a>
-                <a
+                </Link>
+                <Link
                   className="dropdown-item d-flex align-items-center"
-                  href="/features#form"
+                  to="/features#form"
                 >
                   <i className="ri-survey-line ri-lg mr-2"></i>
                   Form Builder
-                </a>
+                </Link>
               </div>
             </li>
 
             <li className="nav-item">
-              <a href="/developers" className="nav-link">
+              <Link to="/developers" className="nav-link">
                 Developers
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a href="/pricing" className="nav-link">
+              <Link to="/pricing" className="nav-link">
                 Pricing
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a href="/blog" className="nav-link">
+              <Link to="/blog" className="nav-link">
                 Blog
-              </a>
+              </Link>
             </li>
 
             <li className="nav-item">

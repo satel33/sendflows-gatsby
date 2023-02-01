@@ -1,4 +1,5 @@
 import * as React from "react"
+import { Link } from "gatsby"
 
 const Footer = () => (
   <footer className="space-3 pb-4 bg-primary-3 text-white link-white">
@@ -61,57 +62,57 @@ const Footer = () => (
           <h5>Azienda</h5>
           <div className="row">
             <div className="col">
-              <a className="nav-link pl-0" href="/features">
+              <Link className="nav-link pl-0" to="/features">
                 All Features
-              </a>
-              <a className="nav-link pl-0" href="/developers">
+              </Link>
+              <Link className="nav-link pl-0" to="/developers">
                 Developers
-              </a>
-              <a className="nav-link pl-0" href="/blog">
+              </Link>
+              <Link className="nav-link pl-0" to="/blog">
                 Blog
-              </a>
-              <a className="nav-link pl-0" href="/contact">
+              </Link>
+              <Link className="nav-link pl-0" to="/contact">
                 Contact
-              </a>
-              <a className="nav-link pl-0" href="/faq">
+              </Link>
+              <Link className="nav-link pl-0" to="/faq">
                 FAQ
-              </a>
+              </Link>
             </div>
           </div>
         </div>
         <div className="col-4 col-lg-2 mt-5 mt-lg-0">
           <h5>Supporto</h5>
-          <a className="nav-link pl-0" href="/contact">
+          <Link className="nav-link pl-0" to="/contact">
             Contact
-          </a>
-          <a className="nav-link pl-0" href="/contact">
+          </Link>
+          <Link className="nav-link pl-0" to="/contact">
             Help Center
-          </a>
+          </Link>
           <h5 className="mt-4">Developers</h5>
-          <a className="nav-link pl-0" href="/docs">
+          <Link className="nav-link pl-0" to="/docs">
             Docs
-          </a>
-          <a className="nav-link pl-0" href="/docs">
+          </Link>
+          <Link className="nav-link pl-0" to="/docs">
             APIs
-          </a>
+          </Link>
         </div>
         <div className="col-4 col-lg-2 mt-5 mt-lg-0">
           <h5>Legale</h5>
-          <a className="nav-link pl-0" href="/privacy">
+          <Link className="nav-link pl-0" to="/privacy">
             Privacy Policy
-          </a>
-          <a className="nav-link pl-0" href="/gdpr">
+          </Link>
+          <Link className="nav-link pl-0" to="/gdpr">
             GPDR
-          </a>
-          <a className="nav-link pl-0" href="/cookie-policy">
+          </Link>
+          <Link className="nav-link pl-0" to="/cookie-policy">
             Cookie
-          </a>
-          <a className="nav-link pl-0" href="/terms-and-conditions">
+          </Link>
+          <Link className="nav-link pl-0" to="/terms-and-conditions">
             Term of Use
-          </a>
-          <a className="nav-link pl-0" href="/forms">
+          </Link>
+          <Link className="nav-link pl-0" to="/forms">
             Modulistica
-          </a>
+          </Link>
         </div>
       </div>
       <div className="row pt-5 pb-0">
@@ -135,9 +136,9 @@ const Footer = () => (
             <div>
               {/* <!-- Nav Item --> */}
               <li className="no-list-style nav-item dropdown position-relative">
-                <a
+                <Link
                   className="nav-link dropdown-toggle"
-                  href="/"
+                  to="/"
                   id="navbarDemosDropdown"
                   role="button"
                   data-toggle="dropdown"
@@ -145,25 +146,23 @@ const Footer = () => (
                   aria-expanded="false"
                 >
                   English
-                </a>
+                </Link>
                 <div
                   className="dropdown-menu"
                   aria-labelledby="navbarDemosDropdown"
                 >
-                  <a
+                  <Link
                     className="text-dark dropdown-item d-flex align-items-center"
-                    href="/en"
+                    to="/en"
                   >
-                    {/* <!-- <i className="ri-send-plane-line ri-lg mr-2"></i> --> */}
                     English
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="text-dark dropdown-item d-flex align-items-center"
-                    href="/it"
+                    to="/it"
                   >
-                    {/* <!-- <i className="ri-whatsapp-line ri-lg mr-2"></i> --> */}
                     Italian
-                  </a>
+                  </Link>
                 </div>
               </li>
               {/* <!-- End Nav Item --> */}
